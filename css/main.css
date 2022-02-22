@@ -12,11 +12,11 @@
 
 body{
   margin-top: 50px;
-  background-color: #ccc;
 }
 
 .wrapper{
   background-color: #fff;
+  border: 1px solid #ccc;
   width: 1440px;
   margin: 0 auto;
 }
@@ -56,6 +56,7 @@ body{
   Font-style: Bold;
   Font-size: 14px;
   Line-height: 21px;
+  letter-spacing: 2px;
   margin-right: 32px;
 }
 
@@ -78,6 +79,7 @@ body{
 
 .header-btn{
   font-family: "Open sans condensed";
+  letter-spacing: 2px;
   font-weight: 700;
   Font-style: Bold;
   Font-size: 15px;
@@ -201,12 +203,13 @@ section{
   text-align: center;
 }
 
-.header-buttom{
+.buttom-btn{
   font-family: "Open sans condensed";
   font-weight: 700;
   font-style: Bold;
   font-size: 15px;
   line-height: 23px;
+  letter-spacing: 2px;
   color: #fff;
   padding: 12px 24px;
   border-radius: 8px;
@@ -215,7 +218,7 @@ section{
   transition: color 0.4s ease, background-color 0.4s ease;
 }
 
-.header-buttom:hover{
+.buttom-btn:hover{
   opacity: 0.8;
   color: #DE2E54;
   border: 2px solid #DE2E54;
@@ -223,7 +226,7 @@ section{
   background-color: #fff;
 }
 
-.header-buttom:active{
+.buttom-btn:active{
   opacity: 0.6;
   color: #fff;
   background-color: #DE2E54;
@@ -253,6 +256,7 @@ section{
   font-style: Bold;
   font-size: 15px;
   line-height: 18px;
+  letter-spacing: 2px;
   margin-right: 40px;
   padding: 12px 24px;
   border: 1px solid #fff;
@@ -294,14 +298,15 @@ section{
   font-weight: 700;
   Font-style: Bold;
   Font-size: 14px;
+  letter-spacing: 2px;
   Line-height: 21px;
   display: flex;
+  text-transform: uppercase;
 }
 
 .footer-child{
-  margin-left: 32px;
-  text-transform: uppercase;
   color: #fff;
+  margin-left: 32px;
   transition: color 0.4s ease;
 }
 
