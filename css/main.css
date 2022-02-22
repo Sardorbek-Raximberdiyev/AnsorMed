@@ -53,7 +53,6 @@ body{
 .nav-child{
   font-family: "Open sans";
   font-weight: 700;
-  Font-style: Bold;
   Font-size: 14px;
   Line-height: 21px;
   letter-spacing: 2px;
@@ -81,7 +80,6 @@ body{
   font-family: "Open sans condensed";
   letter-spacing: 2px;
   font-weight: 700;
-  Font-style: Bold;
   Font-size: 15px;
   Line-height: 23px;
   color: #fff;
@@ -121,7 +119,6 @@ body{
 
 .hero-h2{
   font-family: "Open sans condensed";
-  Font-style: Bold;
   Font-size: 36px;
   Line-height: 43px;
   font-weight: 700;
@@ -131,7 +128,6 @@ body{
 .hero-text{
   font-family: "open sans";
   font-weight: 400;
-  Font-style: Regular;
   Font-size: 18px;
   Line-height: 27px;
   margin-bottom: 36px;
@@ -143,7 +139,7 @@ body{
 
 .hero img{
   padding-top: 29px;
-
+fonst
 }
 
 /* Saytning ikkinchi bo'limi */
@@ -155,7 +151,6 @@ section{
 .servise{
   font-family: "Open sans condensed";
   font-weight: 700;
-  Font-style: Bold;
   Font-size: 36px;
   Line-height: 43px;
   margin-bottom: 56px;
@@ -183,7 +178,6 @@ section{
 .name{
   font-family: "Open sans condensed";
   font-weight: 700;
-  Font-style: Bold;
   Font-size: 24px;
   Line-height: 29px;
   color: #222222;
@@ -193,7 +187,6 @@ section{
 .box-text{
   font-family: "Open sans";
   font-weight: 400;
-  font-style: Regular;
   font-size: 16px;
   line-height: 24px;
   color: #444444;
@@ -206,7 +199,6 @@ section{
 .buttom-btn{
   font-family: "Open sans condensed";
   font-weight: 700;
-  font-style: Bold;
   font-size: 15px;
   line-height: 23px;
   letter-spacing: 2px;
@@ -244,7 +236,6 @@ section{
 .footer h2{
   font-family: "Open sans condensed";
   font-weight: 700;
-  font-style: Bold;
   Font-size: 36px;
   Line-height: 43px;
   margin-bottom: 40px;
@@ -253,7 +244,6 @@ section{
 .links{
   font-family: "Open sans condensed";
   font-weight: 700;
-  font-style: Bold;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 2px;
@@ -296,7 +286,6 @@ section{
 .link-footer{
   font-family: "Open sans";
   font-weight: 700;
-  Font-style: Bold;
   Font-size: 14px;
   letter-spacing: 2px;
   Line-height: 21px;
