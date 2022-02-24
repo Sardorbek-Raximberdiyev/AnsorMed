@@ -30,12 +30,12 @@ body{
 }
 
 .logo{
+  color: #222222;
   transition: color 0.4s ease, opacity 0.4s ease;
 }
 
 .logo:hover{
   color: #DE2E54;
-  opacity: 0.8;
 }
 
 .logo:active{
@@ -130,7 +130,7 @@ body{
   font-weight: 400;
   Font-size: 18px;
   Line-height: 27px;
-  margin-bottom: 36px;
+  margin-bottom: 48px;
 }
 
 .hero-block a{
@@ -139,7 +139,6 @@ body{
 
 .hero img{
   padding-top: 29px;
-fonst
 }
 
 /* Saytning ikkinchi bo'limi */
@@ -238,7 +237,7 @@ section{
   font-weight: 700;
   Font-size: 36px;
   Line-height: 43px;
-  margin-bottom: 40px;
+  margin-bottom: 52px;
 }
 
 .links{
@@ -269,6 +268,20 @@ section{
   background-color: #DE2E54;
 }
 
+.footer-logo{
+  color: #fff;
+  transition: color 0.4s ease;
+}
+
+.footer-logo:hover{
+  color: #DE2E54;
+}
+
+.footer-logo:active{
+  color: #fff;
+  opacity: 0.6;
+}
+
 
 .footer a:last-child{
   margin-right: 0;
@@ -294,8 +307,8 @@ section{
 }
 
 .footer-child{
-  color: #fff;
   margin-left: 32px;
+  color: #fff;
   transition: color 0.4s ease;
 }
 
