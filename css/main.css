@@ -73,6 +73,7 @@
 }
 
 .header-btn{
+  display: inline-block;
   font-family: "Open sans condensed";
   letter-spacing: 2px;
   font-weight: 700;
@@ -126,7 +127,7 @@
   font-weight: 400;
   Font-size: 18px;
   Line-height: 27px;
-  margin-bottom: 48px;
+  margin-bottom: 36px;
 }
 
 .hero-block a{
@@ -192,6 +193,7 @@ section{
 }
 
 .buttom-btn{
+  display: inline-block;
   font-family: "Open sans condensed";
   font-weight: 700;
   font-size: 15px;
@@ -233,10 +235,11 @@ section{
   font-weight: 700;
   Font-size: 36px;
   Line-height: 43px;
-  margin-bottom: 52px;
+  margin-bottom: 40px;
 }
 
 .links{
+  display: inline-block;
   font-family: "Open sans condensed";
   font-weight: 700;
   font-size: 15px;
@@ -254,6 +257,7 @@ section{
 .links:hover{
   color: #fff;
   border: 1px solid #DE2E54;
+  background-color: #DE2E54;
 }
 
 .links:active{
