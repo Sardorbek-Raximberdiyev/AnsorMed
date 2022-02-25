@@ -10,10 +10,6 @@
   outline-offset: 2px;
 }
 
-body{
-  margin-top: 50px;
-}
-
 .wrapper{
   background-color: #fff;
   border: 1px solid #ccc;
@@ -258,14 +254,11 @@ section{
 .links:hover{
   color: #fff;
   border: 1px solid #DE2E54;
-  padding: 12px 24px;
-  background-color: #DE2E54;
 }
 
 .links:active{
   opacity: 0.6;
   color: #fff;
-  background-color: #DE2E54;
 }
 
 .footer-logo{
