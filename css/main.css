@@ -130,6 +130,28 @@
   margin-bottom: 36px;
 }
 
+.hero-btn{
+  display: inline-block;
+  font-family: "Open sans condensed";
+  letter-spacing: 2px;
+  font-weight: 700;
+  Font-size: 15px;
+  Line-height: 23px;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: #DE2E54;
+  transition: color background-color 0.4s ease;
+}
+
+.hero-btn:hover{
+  opacity: 0.8;
+}
+
+.hero-btn:active{
+  opacity: 0.6  ;
+}
+
 .hero-block a{
   text-transform: uppercase;
 }
