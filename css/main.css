@@ -10,6 +10,12 @@
   outline-offset: 2px;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Open sans", sans-serif;
+}
+
 .container{
   width: 100%;
   max-width: 1140px;
@@ -19,7 +25,7 @@
   padding-left: 20px;
 }
 
-.site-header{
+.site-header__block {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -28,30 +34,31 @@
   text-transform: uppercase;
 }
 
-.logo{
+.site-header__logo-link{
   display: flex;
   color: #222222;
+  margin-right: 10px;
   transition: color 0.4s ease, opacity 0.4s ease;
 }
 
-.logo:hover{
+.site-header__logo-link:hover{
   color: #DE2E54;
 }
 
-.logo:active{
+.site-header__logo-link:active{
   opacity: 0.6;
 }
 
-.link-nav{
+.sitenav__list {
   display: flex;
 }
 
-.link-nav a{
+.sitenav__link {
+  transition: color 0.4s ease;
   color: #222222;
 }
 
-.nav-child{
-  font-family: "Open sans";
+.sitenav__item {
   font-weight: 700;
   Font-size: 14px;
   Line-height: 21px;
@@ -59,24 +66,19 @@
   margin-right: 32px;
 }
 
-.nav-child a{
-  transition: color 0.4s ease;
-
-}
-
-.nav-child a:hover{
+.sitenav__link:hover{
   color: #DE2E54;
 }
 
-.nav-child a:active{
+.sitenav__link:active{
   opacity: 0.6;
 }
 
-.nav-child:last-child{
+.sitenav__link:last-child{
   margin-right: 0;
 }
 
-.header-btn{
+.site-header-btn{
   display: inline-block;
   font-family: "Open sans condensed";
   letter-spacing: 2px;
@@ -90,7 +92,7 @@
   transition: color 0.4s ease, background-color 0.4s ease;
 }
 
-.header-btn:hover{
+.site-header-btn:hover{
   opacity: 0.8;
   color: #DE2E54;
   border: 2px solid #DE2E54;
@@ -98,7 +100,7 @@
   background-color: #fff;
 }
 
-.header-btn:active{
+.site-header-btn:active{
   opacity: 0.6;
   color: #fff;
   background-color: #DE2E54;
@@ -110,18 +112,18 @@
   background-color: #0EB4C1;
 }
 
-.site-hero{
+.hero__container{
   display: flex;
   justify-content: space-between;
 }
 
-.hero-block{
+.hero__block{
   padding-top: 120px;
   width: 500px;
   color: #fff;
 }
 
-.hero-h2{
+.hero__title{
   font-family: "Open sans condensed";
   Font-size: 36px;
   Line-height: 43px;
@@ -129,15 +131,14 @@
   margin-bottom: 16px;
 }
 
-.hero-text{
-  font-family: "open sans";
+.hero__text{
   font-weight: 400;
   Font-size: 18px;
   Line-height: 27px;
   margin-bottom: 36px;
 }
 
-.hero-btn{
+.hero__btn{
   display: inline-block;
   font-family: "Open sans condensed";
   letter-spacing: 2px;
@@ -151,11 +152,11 @@
   transition: color background-color 0.4s ease;
 }
 
-.hero-btn:hover{
+.hero__btn:hover{
   opacity: 0.8;
 }
 
-.hero-btn:active{
+.hero__btn:active{
   opacity: 0.6  ;
 }
 
@@ -163,7 +164,8 @@
   text-transform: uppercase;
 }
 
-.hero img{
+.hero__img{
+  display: block;
   padding-top: 29px;
 }
 
@@ -173,7 +175,7 @@ section{
   padding: 120px 288px;
 }
 
-.servise{
+.servise__title {
   font-family: "Open sans condensed";
   font-weight: 700;
   Font-size: 36px;
@@ -183,24 +185,24 @@ section{
   text-align: center;
 }
 
-.box{
+.block-content__box {
   display: flex;
   margin-bottom: 80px;
   align-items: center;
   justify-content: space-between;
 }
 
-.box:last-child{
+.block-content__box:last-child{
   margin-bottom: 60px;
 }
 
-.images{
+.block-content__images{
   border-radius: 24px;
   margin-right: 64px;
   box-shadow: 0 12px 24px -8px #006a7460;
 }
 
-.name{
+.block-content__title{
   font-family: "Open sans condensed";
   font-weight: 700;
   Font-size: 24px;
@@ -209,19 +211,18 @@ section{
   margin-bottom: 24px;
 }
 
-.box-text{
-  font-family: "Open sans";
+.block-content__text{
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #444444;
 }
 
-.hdr-btm{
+.servise__btn{
   text-align: center;
 }
 
-.buttom-btn{
+.servise__btn-link{
   display: inline-block;
   font-family: "Open sans condensed";
   font-weight: 700;
@@ -236,7 +237,7 @@ section{
   transition: color 0.4s ease, background-color 0.4s ease;
 }
 
-.buttom-btn:hover{
+.servise__btn-link:hover{
   opacity: 0.8;
   color: #DE2E54;
   border: 2px solid #DE2E54;
@@ -244,21 +245,23 @@ section{
   background-color: #fff;
 }
 
-.buttom-btn:active{
+.servise__btn-link:active{
   opacity: 0.6;
   color: #fff;
   background-color: #DE2E54;
 }
 
+
  /* Saytning footer qismi */
 
-.footer-top{
+.site-footer__footer-top{
   color: #ffffff;
   padding: 64px ;
   background-color: #0EB4C1;
   text-align: center;
 }
-.footer h2{
+
+.footer-top__title{
   font-family: "Open sans condensed";
   font-weight: 700;
   Font-size: 36px;
@@ -266,14 +269,13 @@ section{
   margin-bottom: 40px;
 }
 
-.links{
+.footer-top__link {
   display: inline-block;
   font-family: "Open sans condensed";
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 2px;
-  margin-right: 40px;
   padding: 12px 24px;
   border: 1px solid #fff;
   border-radius: 8px;
@@ -282,28 +284,33 @@ section{
   transition: color 0.4s ease, background-color 0.4s ease;
 }
 
-.links:hover{
+.footer-top__link:not(:last-child) {
+  margin-right: 40px;
+}
+
+
+.footer-top__link:hover{
   color: #fff;
   border: 1px solid #DE2E54;
   background-color: #DE2E54;
 }
 
-.links:active{
+.footer-top__link:active{
   opacity: 0.6;
   color: #fff;
 }
 
-.footer-logo{
+.img-block__link{
   display: flex;
   color: #fff;
   transition: color 0.4s ease;
 }
 
-.footer-logo:hover{
+.img-block__link:hover{
   color: #DE2E54;
 }
 
-.footer-logo:active{
+.img-block__link:active{
   color: #fff;
   opacity: 0.6;
 }
@@ -313,40 +320,39 @@ section{
   margin-right: 0;
 }
 
-.footer-buttom{
+.footer-bottom{
   color: #fff;
   background-color: #222222;
 }
 
-.bottom-footer{
+.footer-bottom__container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.link-footer{
-  font-family: "Open sans";
+.footer-bottom__list {
+  display: flex;
   font-weight: 700;
   Font-size: 14px;
   letter-spacing: 2px;
   Line-height: 21px;
-  display: flex;
   text-transform: uppercase;
 }
 
-.footer-child{
+.footer-bottom__link{
   margin-left: 32px;
   color: #fff;
   transition: color 0.4s ease;
 }
 
-.footer-child:hover{
+.footer-bottom__link:hover{
   color: #DE2E54;
 }
 
-.footer-child:active{
+.footer-bottom__link:active{
   opacity: 0.6;
   color: #fff;
 }
