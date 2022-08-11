@@ -149,6 +149,7 @@ body{
   padding: 12px 24px;
   border-radius: 8px;
   background-color: #DE2E54;
+  text-transform: uppercase;
   transition: color background-color 0.4s ease;
 }
 
